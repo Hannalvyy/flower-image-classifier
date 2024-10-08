@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# PyTorch checkpoints and model files
+*.pth
+saved_models/
+checkpoints/
+
+# Log files
+*.log
+
+# Data directories (if you have large datasets)
+data/
+dataset/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
